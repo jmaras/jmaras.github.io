@@ -1,15 +1,24 @@
 * {
     background-color: #ff6436;
-    margin: 0;
     padding: 0;
+    margin: 0;
 }
 
 #head-container {
-    height: 300px;
-    width: 300px;
-    margin: 12% auto 0 auto;
-    background: url(../img/julian-s.png) no-repeat center center;
-    background-color: #b9eb45;
-    border: 6px solid black;
-    border-radius: 50%;
+    width: 7%;
+    padding: 10px;
+    margin: 35vh auto 0 auto;
+    overflow: hidden;
+    border: 2px solid black;
+    border-radius: 15%;
+}
+
+#head-container:hover {
+    border-color: #FFF;
+}
+
+#head-container img {
+    width: 100%;
+    height: auto;
+    display: block;
 }
