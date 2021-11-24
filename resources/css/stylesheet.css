@@ -1,0 +1,15 @@
+* {
+    background-color: #ff6436;
+    margin: 0;
+    padding: 0;
+}
+
+#head-container {
+    height: 300px;
+    width: 300px;
+    margin: 12% auto 0 auto;
+    background: url(../img/julian-s.png) no-repeat center center;
+    background-color: #b9eb45;
+    border: 6px solid black;
+    border-radius: 50%;
+}
