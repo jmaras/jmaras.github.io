@@ -4,22 +4,30 @@
     margin: 0;
 }
 
-#head-container {
-    width: 12%;
-    min-width: 70px;
-    max-width: 150px;
+a {
+    display: block;
+    width: 8%;
+    min-width: 80px;
+    max-width: 170px;
     padding: 10px;
-    margin: 32vh auto 0 auto;
+    margin: 32vh auto;
     overflow: hidden;
     border: 2px solid black;
     border-radius: 15%;
 }
 
-#head-container:hover {
+a:hover,
+img:hover {
     border-color: #FFF;
 }
 
-#head-container img {
+a:active,
+img:active {
+    background-color: #FF9929;
+}
+
+img {
     width: 100%;
     height: auto;
+    visibility: visible;
 }
