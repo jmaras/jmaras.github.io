@@ -7,17 +7,23 @@ html {
     background-color: #FF6436;
 }
 
+body {
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    height: 100vh;
+}
+
 a {
     background-color: #E86F25;
-    display: block;
     width: 8%;
-    min-width: 80px;
+    min-width: 100px;
     max-width: 170px;
     padding: 10px;
-    margin: 32vh auto;
     overflow: hidden;
     border: 2px solid #000;
     border-radius: 15%;
+    animation: pulse 5s ease 0s infinite normal none;
 }
 
 a:hover,
@@ -34,4 +40,10 @@ img {
     width: 100%;
     height: auto;
     visibility: visible;
+}
+
+@keyframes pulse {
+    50% {
+        transform: scale(1.3);
+    }
 }
