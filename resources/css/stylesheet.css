@@ -8,8 +8,8 @@ html {
 }
 
 body {
-    display: grid;
-    align-content: center;
+    display: flex;
+    align-items: center;
     justify-content: center;
     height: 100vh;
 }
@@ -39,7 +39,6 @@ img:active {
 img {
     width: 100%;
     height: auto;
-    visibility: visible;
 }
 
 @keyframes pulse {
