@@ -23,7 +23,7 @@ a {
   overflow: hidden;
   border: 2px solid #000;
   border-radius: 15%;
-  animation: pulse 5s ease 0s infinite normal none;
+  animation: pulse 3.5s ease 0s infinite normal none;
 }
 
 a:hover,
