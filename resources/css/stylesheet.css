@@ -23,13 +23,13 @@ a {
   overflow: hidden;
   border: 2px solid #000;
   border-radius: 15%;
-  animation: pulse 3.5s ease 0s infinite normal none;
+  animation: grow 3.5s ease 0s 1 normal forwards;
 }
 
 a:hover,
 img:hover {
   cursor: pointer;
-  border-width: 4px;
+  border-width: 3px;
 }
 
 img {
@@ -37,8 +37,8 @@ img {
   height: auto;
 }
 
-@keyframes pulse {
-  50% {
+@keyframes grow {
+  100% {
     transform: scale(1.3);
   }
 }
