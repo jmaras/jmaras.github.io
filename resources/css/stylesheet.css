@@ -23,7 +23,7 @@ img {
   overflow: hidden;
   border: 2px solid #000;
   border-radius: 15%;
-  animation: grow 2.5s ease 0s infinite normal none;
+  animation: grow 5s ease 0s infinite normal none;
 }
 
 img {
@@ -32,7 +32,13 @@ img {
 }
 
 @keyframes grow {
-  100% {
-    transform: scale(1.1);
-  }
+    0% {
+        transform:  scale(1.0);
+    }
+    50% {
+        transform:  scale(1.2);
+    }
+    100% {
+        transform:  scale(1.0);
+    }
 }
