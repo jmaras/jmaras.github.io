@@ -23,7 +23,7 @@ img {
   overflow: hidden;
   border: 2px solid #000;
   border-radius: 15%;
-  animation: grow 3.5s ease 0s 1 normal forwards;
+  animation: grow 3.5s ease 0s infinite normal forwards;
 }
 
 a:hover,
